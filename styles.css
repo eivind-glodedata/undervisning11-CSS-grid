@@ -1,0 +1,23 @@
+main {
+    min-height: 100vh;
+}
+
+
+.heroIntro {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+
+.container {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.containerSection {
+    display: grid;
+    grid-template-columns: 100px 150px 100px;
+    grid-template-columns: repeat(3, 100px);
+}
