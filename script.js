@@ -15,7 +15,7 @@ function typeText(elementId, text, speed) {
 }
 
 typeText(
-  'print',
+  'testDiv',
   `Arma virumque cano, Troiae qui primus ab oris Italiam, fato profugus, Laviniaque venit
 litora, multum ille et terris iactatus et alto vi superum saevae memorem Iunonis ob iram; multa quoque et bello
 passus, dum conderet urbem, inferretque deos Latio, genus unde Latinum, Albanique patres, atque altae moenia Romae.
@@ -31,6 +31,8 @@ Ganymedis honores. His accensa super, iactatos aequore totoTroas, reliquias Dana
 longe Latio, multosque per annos errabant, acti fatis, maria omnia circum. Tantae molis erat Romanam condere gentem!`,
   100
 );
+
+
 
 //This will create a typing effect where "Hello, world!" is typed out in the element with ID myElement at a speed of 100 milliseconds per character.
 
