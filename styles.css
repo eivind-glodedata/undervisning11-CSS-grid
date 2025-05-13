@@ -28,6 +28,7 @@ main {
     grid-template-columns: repeat(5, 50px);
     grid-template-rows: repeat(5, 50px);
     justify-content: center;
+    gap: 10px;
 
 }
 
@@ -46,6 +47,11 @@ main {
     background-color: aqua;
     grid-area: 4 / 1 / 5 / 3;
     z-index: 2;
+}
+
+.itemDisplay {
+    background-color: blueviolet;
+    grid-area: 1 / 1 /1 / 6;
 }
 
 .itemResult {

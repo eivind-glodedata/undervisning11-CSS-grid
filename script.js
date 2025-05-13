@@ -32,6 +32,24 @@ longe Latio, multosque per annos errabant, acti fatis, maria omnia circum. Tanta
   100
 );
 
+numbers1.addEventListener("click", () => {
+  console.log("klikket");
+  console.log(document.getElementById("heroText").innerText);
+  display();
+});
+
+function display() {
+document.getElementById("itemDisplay").innerHTML += "1";
+
+};
+
+function reset() {
+  document.getElementById("itemDisplay").innerHTML = "display";
+}
+
+itemResetButton.addEventListener("click", () => {
+  document.getElementById("itemDisplay").innerHTML = "";
+});
 
 
 //This will create a typing effect where "Hello, world!" is typed out in the element with ID myElement at a speed of 100 milliseconds per character.
